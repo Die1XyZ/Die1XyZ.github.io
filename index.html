@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Me</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(194, 196, 198);
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            height: 100vh;
+
+        }
+
+        .box-msg {
+            background: #111;
+            color: aliceblue;
+            font-size: 2rem;
+            width: 500px;
+            height: 600px;
+            border-radius: 50px;
+            box-shadow: 10px 10px 10px 0.1px rgb(35, 35, 35);
+            padding: 100px;
+
+            text-decoration: underline;
+            transition: all 1s ease;
+            
+        }
+
+        .box-msg:hover {
+            box-shadow: 10px 10px 100px 20px rgb(174, 130, 130);
+            box-shadow: -10px -10px 100px 80px rgb(22, 187, 107);
+        }
+    </style>
+</head>
+<body>
+        <div class="container">
+            <div class="box-msg">
+                <h1>I'm Noting</h1>
+            </div>
+        </div>
+</body>
+</html>
